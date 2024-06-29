@@ -22,6 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
 
-    # ToDo
+    #To Do
+
     path('todo/', include('todo.urls')),
 ]
